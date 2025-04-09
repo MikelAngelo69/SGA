@@ -27,7 +27,7 @@ const FooterComponent = () => {
         <h4>Horarios</h4>
         <p>Lunes a Viernes: 8am - 6pm</p>
         <p>Sábados: 9am - 1pm</p>
-        <p>Domingos: Cerrado</p>
+        <p>Domingos - Festivos: Cerrado</p>
       </div>
     </footer>
   );

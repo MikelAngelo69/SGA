@@ -20,7 +20,7 @@ const HomeSeller = () => {
     <>
       <SellerNavbar />
       <div className="verification-container">
-        <h1 className="verification-title">Generar Nuevo Alquiler</h1>
+        <h1 className="verification-title">Generar Nuevo <br/>Alquiler</h1>
 
         <div className="verification-content">
           <div className="verification-left">

@@ -1,0 +1,26 @@
+.ContainerInventory{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: auto auto;
+}
+.VestidosDama{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.cositas{
+    display: flex;  
+
+}
+.textCositas{
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 22%;
+    font-size: 15px;
+    height: 220px;
+    background-color: #f3e5f5;
+}

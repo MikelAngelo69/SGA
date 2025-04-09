@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./carousel.styles.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Imagen1 from "../../assets/ImgPrincipal.png"
+import Imagen2 from "../../assets/ImgSecundaria.png"
 
 const images = [
-  "https://media.slidesgo.com/storage/47342277/elegant-clothing-line-social-media-strategy1704891339.jpg",
-  "https://media.slidesgo.com/storage/47342277/elegant-clothing-line-social-media-strategy1704891339.jpg",
-  "https://media.slidesgo.com/storage/47342277/elegant-clothing-line-social-media-strategy1704891339.jpg"
+  Imagen1,
+  Imagen2,
 ];
 
 const Carousel = () => {
