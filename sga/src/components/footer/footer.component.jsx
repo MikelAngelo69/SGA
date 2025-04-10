@@ -10,8 +10,8 @@ const FooterComponent = () => {
         <a href="#">Términos y Condiciones</a>
         <a href="#">Política de Privacidad</a>
         <div className="footer-icons">
-          <a href="#"><FaFacebook /></a>
-          <a href="#"><FaInstagram /></a>
+          <a href="https://web.facebook.com/?_rdc=1&_rdr#"><FaFacebook /></a>
+          <a href=""><FaInstagram /></a>
           <a href="#"><FaXTwitter /></a>
           <a href="#"><FaLinkedin /></a>
         </div>

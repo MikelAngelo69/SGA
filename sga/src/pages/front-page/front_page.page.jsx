@@ -18,9 +18,7 @@ const FrontPage = () => {
 
         
       <div className="title_product_carousel">
-          <Link to="/categorias">
             <p>categorias</p>
-          </Link>
           
         
         </div>
