@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fffdfd;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #dbeafe, #f0abfc);
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  color: #4b0082;
+}
+
+header input {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem 0;
+  gap: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6a11cb;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #b721ff;
+}
+
+.content {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 1;
+  min-width: 200px;
+  background-color: #f0f4ff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+  color: #6a11cb;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #6a11cb;
+}
+
+.main-image {
+  flex: 2;
+  text-align: center;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.creative-section {
+  background: linear-gradient(to right, #f9f4ff, #fce4ec);
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.creative-section h2 {
+  font-size: 2rem;
+  color: #9c27b0;
+  margin-bottom: 1rem;
+}
+
+.creative-section p {
+  font-size: 1.2rem;
+  color: #6a1b9a;
+}
+
+.bubbles {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bubbles div {
+  width: 20px;
+  height: 20px;
+  background-color: #ce93d8;
+  border-radius: 50%;
+  animation: float 2s ease-in-out infinite alternate;
+}
+
+.bubbles div:nth-child(2) { animation-delay: 0.2s; }
+.bubbles div:nth-child(3) { animation-delay: 0.4s; }
+.bubbles div:nth-child(4) { animation-delay: 0.6s; }
+.bubbles div:nth-child(5) { animation-delay: 0.8s; }
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-15px); }
+}
+
+footer {
+  background-color: #6a11cb;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 5px solid #f0abfc;
+}
